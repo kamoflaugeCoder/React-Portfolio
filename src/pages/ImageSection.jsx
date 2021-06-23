@@ -10,41 +10,29 @@ function ImageSection() {
             </div>
             <div className="about-info">
                 <h4>I am<span> Lorem Ipsum</span></h4>
-                <p>
+                <p className="about-text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Desir per po la ta doso vi slone ve?
                 </p>
-
-                <br />
-
                 <div className="about-details">
-                    <div className="name-details">
-                        <p>Full Name</p>
-                        <p>: Lorem Ipsum</p>
+                    <div className="left-section">
+                        <p>Full Name:</p>
+                        <p>Age:</p>
+                        <p>Nationality:</p>
+                        <p>Languages:</p>
+                        <p>Address:</p>
+                        <p>Countries:</p>
                     </div>
-                    <div className="name-details">
-                        <p>Age</p>
-                        <p>: 41</p>
+                    <div className="right-section">
+                        <p>Thomas Crowell</p>
+                        <p>41</p>
+                        <p>American</p>
+                        <p>English</p>
+                        <p>123 Street, Indianapolis, IN 46220</p>
+                        <p>United States</p>
                     </div>
-                    <div className="name-details">
-                        <p>Skill</p>
-                        <p>: Lorem Ipsum</p>
-                    </div>
-                    <div className="name-details">
-                        <p>Placeholder</p>
-                        <p>: Lorem Ipsum</p>
-                    </div>
-                    <div className="name-details">
-                        <p>Placeholder</p>
-                        <p>: Lorem Ipsum</p>
-                    </div>
-                    <div className="name-details">
-                        <p>Placeholder</p>
-                        <p>: Lorem Ipsum</p>
-                    </div>
-
                 </div>
+                <button className="btn">Download CV</button>
             </div>
-
         </div>
     )
 }
