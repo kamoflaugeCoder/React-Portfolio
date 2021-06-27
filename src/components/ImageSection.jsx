@@ -11,7 +11,7 @@ function ImageSection() {
             <div className="about-info">
                 <h4>I am<span> Lorem Ipsum</span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Desir per po la ta doso vi slone ve?
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
