@@ -5,8 +5,15 @@ import { Switch, Route } from "react-router-dom";
 import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
+import { useState } from 'react';
 
 function App() {
+	const [navToggle, setNavToggle] = useState(false);
+
+	const navClick = () =>{
+		setNavToggle(!navToggle)
+	  }
+	  
 	return (
 		<div className="App">
 			<div className="sidebar">

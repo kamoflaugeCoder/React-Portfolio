@@ -1,17 +1,21 @@
 .ServicesSection {
 	.service {
-		width: 85%;
+		width: 95%;
 		background-color: #191d2b;
 		border-left: 1px solid #2e344e;
 		border-right: 1px solid #2e344e;
 		border-bottom: 1px solid #2e344e;
 		border-top: 8px solid #2e344e;
 		transition: all 0.4s ease-in-out;
+		@media screen and (max-width: 1400px) {
+			width: 100%;
+			margin-bottom: 1rem;
+		}
 		&:hover {
 			border-top: 8px solid #037fff;
 		}
 		.service-content {
-			padding: 2rem;
+			padding: 1rem;
 			.s-title {
 				font-size: 1.6rem;
 				font-weight: 500;
@@ -35,4 +39,10 @@
 .services-container {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 4rem;
+
+	// @media screen and (max-width: 1400px) {
+	// 	flex-direction: column;
+	// 	margin-bottom: 2rem;
+	// }
 }
