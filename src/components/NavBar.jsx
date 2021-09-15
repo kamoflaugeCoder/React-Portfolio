@@ -1,6 +1,6 @@
-import React from 'react';
-import avatar from '../img/avatar.png';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import avatar from "../img/avatar.png";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
 	return (
@@ -37,9 +37,7 @@ function NavBar() {
 					</li>
 				</ul>
 				<footer className="footer">
-					<p>
-						@2021 Thomas Crowell
-					</p>
+					<p>@2021 Thomas Crowell</p>
 				</footer>
 			</nav>
 		</div>
