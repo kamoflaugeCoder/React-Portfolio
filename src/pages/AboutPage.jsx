@@ -16,32 +16,32 @@ function AboutPage() {
 				<SkillsSection skill={"Typescript"} progress={"30%"} width={"30%"} />
 				<SkillsSection skill={"React Js"} progress={"70%"} width={"70%"} />
 				<SkillsSection skill={"Node Js"} progress={"80%"} width={"80%"} />
-				<SkillsSection skill={"Python"} progress={"90%"} width={"90%"} />
-				<SkillsSection skill={"Lua"} progress={"40%"} width={"40%"} />
-				<SkillsSection skill={"Java"} progress={"80%"} width={"80%"} />
-				<SkillsSection skill={"Web Design"} progress={"25%"} width={"25%"} />
-				<SkillsSection skill={"UI/Ux Design"} progress={"76%"} width={"76%"} />
+				<SkillsSection skill={"SQL *PLus"} progress={"10%"} width={"10%"} />
+				<SkillsSection skill={"Security+"} progress={"100%"} width={"100%"} />
+				{/* <SkillsSection skill={"Java"} progress={"80%"} width={"80%"} /> */}
+				{/* <SkillsSection skill={"Web Design"} progress={"25%"} width={"25%"} /> */}
+				{/* <SkillsSection skill={"UI/Ux Design"} progress={"76%"} width={"76%"} /> */}
 			</div>
 
 			<Title title={"Services"} span={"Services"} />
 			<div className="services-container">
 				<ServicesSection
 					image={design}
-					title={"Web design"}
+					title={"Web Developer"}
 					text={
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 					}
 				/>
 				<ServicesSection
 					image={design}
-					title={"Web design"}
+					title={"Cyber Security"}
 					text={
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 					}
 				/>
 				<ServicesSection
 					image={design}
-					title={"Web design"}
+					title={"Customer Service"}
 					text={
 						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 					}

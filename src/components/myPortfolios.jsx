@@ -14,7 +14,7 @@ const portfolios = [
 		icon1: "G",
 		icon2: "Y",
 		image: port1,
-		title: "Autodesk Maya",
+		title: "Login Challenge",
 	},
 	{
 		id: 2,
@@ -24,7 +24,7 @@ const portfolios = [
 		icon1: "G",
 		icon2: "Y",
 		image: port2,
-		title: "Python Web Scrapping",
+		title: "My CS Creature",
 	},
 	{
 		id: 3,
